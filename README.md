@@ -7,7 +7,8 @@ Please see below an example Reddit post with annotated ACEs + ACE related mental
 
 
 ## ACE Ontology and NLP resources generated from Redddit Mental Health Corpus
-The Reddit Mental Health Corpus is from https://zenodo.org/record/3941387#%23.YFfi3EhJHL8. We applied baseline NLP ([SemEHR](https://academic.oup.com/jamia/article/25/5/530/4817428)) and then introduced a self-supervised method for learning concept embeddings. 
+The Reddit Mental Health Corpus is from https://zenodo.org/record/3941387#%23.YFfi3EhJHL8. We applied baseline NLP ([SemEHR](https://academic.oup.com/jamia/article/25/5/530/4817428)) and then introduced a self-supervised method for learning concept embeddings. This generates the following reusable resources.
+
 - Reddit corpus vector representations: [reddit_vector_data.zip](./Reddit-MH/reddit_vector_data.json.zip). This is a zipped `JSON` file, which is of the format like below.
   ```javascript
   {
