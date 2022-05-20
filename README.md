@@ -10,7 +10,10 @@ Adverse Childhood Experiences (ACEs) are defined as a collection of highly stres
     "document vectors":	{...} // a dictionary from document name to vector, the dimensions are the same as those of the concept vectors above.
   }
   ```
-- Adverse Childhood Concept Embedding: [concept_embedding_322c50d.json](./Reddit-MH/concept_embedding_322c50d.json). This is concept embeddings that are generated from the above data using an `Autoencoder` trained on all document vectors. The dimension size is 50. This is a compact representation of concepts, which as we show in our experiments has very similar performances as those original 322 dimension vectors.
+- Adverse Childhood Concept Embedding: [concept_embedding_322c50d.json](./Reddit-MH/concept_embedding_322c50d.json). This is concept embeddings that are generated from the above data using an `Autoencoder` trained on all document vectors. The dimension size is 50. This is a compact representation of concepts, which as we show in our experiments has very similar performances as those original 322 dimension vectors. For example, the figure below shows the cosine similarities between 780 documents which contain the concept `Suicide[CUI:C0038661]`. The x-axis is the similarity from original vectors (322 dimensions) and the y-axis is that of encoded vectors (50 dimensions). They form a near linear correlation while the dimension has been reduced >6 times.
+
+![image](https://user-images.githubusercontent.com/6075558/169578177-c8b1ecdb-b526-4f31-95ef-87b294b7e868.png)
+
 - Full NLP results on Reddit Mental Health Corpus for identifying 322 concepts: [aces_reddits_mental_health_322_ACEs.zip](./Reddit-MH/aces_reddits_mental_health_322_ACEs.zip). This is a zipped `JSON` file.
   ```javascript
   {
