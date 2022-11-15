@@ -1,4 +1,4 @@
-# Averse Childhood Experiences NLP project
+# Adverse Childhood Experiences NLP project
 Adverse Childhood Experiences (ACEs) are defined as a collection of highly stressful, and potentially traumatic, events or circumstances that occur throughout childhood and/or adolescence. They have been shown to be associated with increased risks of mental health diseases or other abnormal behaviours in later lives. This repo is for creating a publicly accessible resource for facilitating NLP for surfacing ACEs from free-text data.
 
 Please see below an example Reddit post with annotated ACEs + ACE related mental disorders.
